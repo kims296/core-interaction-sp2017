@@ -1,0 +1,37 @@
+h1 {
+    color: #A6E0EE;
+
+}
+
+@font-face {
+	src: url("Quicksand_Book.otf");
+	font-family: "nestlequick";
+
+}
+
+@font-face {
+	src: url("Quicksand_Book.otf");
+	font-family: "nestlequick";
+	font-weight: bold;
+}
+
+p {
+	font-family: "nestlequick", sans-serif;
+}
+
+
+a {
+	color: rgba(200,200,200,1);
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgba(0,0,200,1);
+	text-decoration: underline;
+}
+a:focus{
+	color: rgba(200,0,200,1);
+}
+a:active{
+	color: rgba(0,0,0,1);
+}

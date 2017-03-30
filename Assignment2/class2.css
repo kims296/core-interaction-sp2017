@@ -1,0 +1,19 @@
+.box {
+	width: 100px;
+	height: 100px;
+	background: lightblue;
+	float: left;
+	margin: 10px;
+	border: 2px solid blue;
+
+	transition: border-color 2s;
+
+}
+
+.hovered {
+	border-color: black;
+}
+
+.active {
+	background: yellow;
+}
